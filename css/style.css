@@ -1,0 +1,359 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/* Header Start */
+header{
+	  margin-top: 80px;
+    margin-bottom: 80px;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	/* border: 1px solid darkblue;*/
+	overflow: hidden;
+}
+.logo{
+width: 9%;
+float: left;
+/* border: 1px solid darkblue;*/
+    margin: 11px 0;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menubar{
+  width: 90%;
+  float: right;
+  /* border: 1px solid darkblue;*/
+ }
+
+.menubar ul{
+		list-style: none;
+		float: right;
+}
+
+.menubar ul li{
+	float: left;
+}
+
+.menubar ul li a{
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  color: #626262;
+	text-decoration: none;
+	margin-right: 120px;
+  display: inline-block;
+}
+.menubar ul li:last-child a{
+  margin-right: 0;
+}
+.menubar ul li a:hover {
+  
+  color: blue;
+
+}
+
+
+/* Header End */
+
+/* Banner Start */
+
+.banner{
+	margin-top: 0;
+	margin-bottom: 135px;
+}
+.b_content{}
+.img{
+	width: 100%;
+	margin: 0 auto;
+}
+.img img{
+	width: 100%;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+.wrap_content p.p1{
+	font-family: "ubuntu";
+	font-size: 12px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-bottom: 0;
+
+}
+.wrap_content h1{
+	font-family: "Playfair Display";
+	font-size: 30px;
+	font-weight: 400;
+	color: #626262;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.wrap_content p.p2{
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	line-height: 28px;
+  text-align: justify;
+  margin-bottom: 50px;
+  margin-top: 0;
+
+}
+.wrap_content p.p3{
+	font-family: "ubuntu";
+	font-size: 12px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin: 0 0;
+
+}
+
+/* Banner End */
+
+/* feature Start */
+.feature{}
+.container2{
+	width: 81%;
+	margin: 0 auto;
+	/* border: 1px solid darkblue;*/
+}
+.f_content{
+	overflow: hidden;
+	margin: 0 auto;
+}
+.f_top{}
+.f_single{
+	width: 40.1%;
+	/* border: 1px solid darkblue;*/
+	float: left;
+	margin-right: 194px;
+}
+.f_single:nth-child(even){
+	margin-right: 0;
+}
+#img {
+}
+#img img{
+	width: 100%;
+}
+.f_single h6{
+	font-family: "ubuntu";
+	font-size: 14px;
+	font-weight: 400;
+	color: #b4ad9e;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.f_single h1{
+	font-family: "Playfair Display";
+	font-size: 27px;
+	font-weight: 400;
+	color: #626262;
+	margin: 0 0;
+}
+.f_single p{
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #626262;
+
+	margin-top: 20px;
+	margin-bottom: 70px;
+
+}
+
+/* feature End */
+
+
+/* Signup Start */
+
+.signup{
+	width: 100%;
+	height: 290px;
+	background-color: #f0f0f0;
+}
+.container3{
+	width: 30%;
+	margin: 0 auto;
+}
+.s_content{
+	padding: 65px 0;
+}
+.s_content h1{
+	font-family: "Playfair Display";
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+	margin-bottom: 80px;
+	margin-top: 0;
+}
+.s_bottom_content{
+	overflow: hidden;
+}
+.s_bottom_content h6{
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	float: left;
+	margin: 0 0;
+}
+.s_bottom_content i{
+	float: right;
+  margin-right: 15px;
+  color: #626262;
+}
+.line{
+	width: 100%;
+	height: 1px;
+	border: 0 none;
+	background-color: black;
+	margin: 28px 0;
+}
+
+/* Signup End */
+
+
+/* feature2 Start */
+
+.feature2{
+	margin-top: 100px;
+	margin-bottom: 170px;
+	overflow: hidden;
+}
+
+/* feature2 End */
+
+/* button Start */
+.text_style{
+	display: block;
+}
+.button {
+  background-color: white;
+  color: #626262;
+  padding: 25px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid black;
+}
+.Button{
+	width:12.2%;
+	margin: 0 auto;
+}
+.b_button{
+    margin-top: 100px;
+    margin-bottom: 170px;
+}}
+
+.button:hover {
+  background-color: #f3f3f3;
+}
+/* Button End */
+
+
+/* Footer Start */
+
+footer{
+	background-color: #f0f0f0;
+	width: 100%;
+	height: 100px;
+}
+
+.footer{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.footer_content{
+	overflow: hidden;
+	padding-top: 10px;
+}
+
+.f_left{
+	width: 30%;
+	float: left;
+}
+
+.f_left h6{
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.f_left h5{
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+	display: inline-block;
+}
+
+.f_right{
+	float: right;
+	width: 16.2%;
+	margin-top: 20px;
+}
+
+.f_right p{
+	font-family: "Playfair Display";
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+i.fa-brands.fa-facebook-f{
+	margin-right: 20px;
+	color: #626262;
+}
+
+i.fa-brands.fa-twitter{
+	margin-right: 20px;
+	color: #626262;
+}
+
+i.fa-brands.fa-instagram{
+	color: #626262;
+}
+
+/* Footer End */
+
+
+/* Homework Start */
+
+.body {
+  background-image: url("food.jpg");
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin: 0 auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px 50px;
+}
+
+tr:nth-child(even) {
+  background-color: #F4F4F4;
+}
+/*homework End */
